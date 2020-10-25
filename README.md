@@ -29,7 +29,7 @@ Create a new server in PostgreSQL:
 - schema: `lastfm`
 - python will automatically create required tables: `top_tracks`, `top_artists` in `openapi.lastfm`
 
-Add a new user: in `postgresql-setup/add-user.sql`, there are queries to create a user with:
+Add a new user: in `last-fm-online/postgresql-setup/add-user.sql`, there are queries to create a user with:
 - username: `api1` 
 - password: `Open API@1`;
 
