@@ -39,6 +39,8 @@ In order to access LastFM API, register an account in LastFM: https://www.last.f
 
 After the registration, request an API account with API key: https://www.last.fm/api/account/create
 
+Details are in: https://www.radioking.com/on/knowledgebase/3232/How-to-create-a-Lastfm-API-Key.html
+
 ### Extract, transform and load data from LastFM API
 In `last-fm-online`, there are 2 file files: `etl-top-artists.py`, `etl-top-tracks.py`. 
 - Change the `api_key` value at line 23/24 with the provided API key from LastFM. Then run them to perform ETL.
