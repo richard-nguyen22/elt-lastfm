@@ -34,6 +34,11 @@ Add a new user: in `last-fm-online/postgresql-setup/add-user.sql`, there are que
 - password: `Open API@1`;
 
 ## How to run Data piplines for LastFM API
+### Create a new account in LastFM API
+In order to access LastFM API, register an account in LastFM: https://www.last.fm/join
+
+After the registration, request an API account with API key: https://www.last.fm/api/account/create
+
 ### Extract, transform and load data from LastFM API
 In `last-fm-online`, there are 2 file files: `etl-top-artists.py`, `etl-top-tracks.py`. 
 - Change the `api_key` value at line 23/24 with the provided API key from LastFM. Then run them to perform ETL.
