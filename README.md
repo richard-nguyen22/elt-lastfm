@@ -35,7 +35,7 @@ Add a new user: in `postgresql-setup/add-user.sql`, there are queries to create 
 
 ## How to run Data piplines for LastFM API
 ### Extract, transform and load data from LastFM API
-There are 2 file files: `etl-top-artists.py`, `etl-top-tracks.py`. 
+In `last-fm-online`, there are 2 file files: `etl-top-artists.py`, `etl-top-tracks.py`. 
 - Change the `api_key` value at line 23/24 with the provided API key from LastFM. Then run them to perform ETL.
 - If there are no tables: `top_tracks`, `top_artists`. The file `sql_queries` is run to create these 2 tables in PostgreSQL
 
