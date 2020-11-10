@@ -1,7 +1,7 @@
 ## Table of Contents
 1. [Prerequisites](#Prerequisites)
-2. [Data piplines for LastFM API](#paragraph1)
-3. [How to run Data piplines for LastFM API](#paragraph2)
+2. [Data piplines for LastFM API](#data-piplines-for-lastfm-api)
+3. [How to run Data piplines for LastFM API](#how-to-run-data-piplines-for-lastfm-api)
 
 ## Prerequisites
 - PostgreSQL version 13.0-1
