@@ -1,3 +1,9 @@
+## Table of Contents
+1. [Prerequisites](#Prerequisites)
+2. [Data piplines for LastFM API](#Data piplines for LastFM API)
+3. [Third Example](#third-example)
+4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
+
 ## Prerequisites
 - PostgreSQL version 13.0-1
 - jdbc driver version 42.2.18
