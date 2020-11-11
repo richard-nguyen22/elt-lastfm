@@ -12,14 +12,12 @@
 - A new LastFM account with API key
 
 ## Data piplines for LastFM API
-LastFM is a music website that offers an API to extract music data from the website: https://www.last.fm/api
-
-This project - Data piplines for LastFM API will do the following:
+LastFM is a music website that offers an [API](https://www.last.fm/api) to extract music-related data. This project - Data pipelines for LastFM API does the following:
 1. Connect to LastFM API and extract data: 
   - top artists of the day from API `chart.gettopartists`
   - top tracks of the day from API `chart.gettoptracks`
 
-2. Perform data transformation
+2. Perform data transformation in Python
 
 3. Save transformed data into PostgreSQL
 
